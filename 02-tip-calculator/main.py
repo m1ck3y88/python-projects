@@ -6,7 +6,7 @@ while True:
     try:
         bill = float(input("What was the total bill?: "))
     except:
-        print("Whoops! That's not a valid number. Please try again")
+        print("Whoops! That's is not a valid number. Please try again")
     else:
         break
 
@@ -15,7 +15,7 @@ while True:
     try:
         tip_percentage = int(input("What percentage tip would you like to give?: ")) / 100
     except:
-        print("Whoops! That's not a valid number. Please try again.")
+        print("Whoops! That's is not a valid number. Please try again.")
         continue
     else:
         break
@@ -25,7 +25,7 @@ while True:
     try:
         party = int(input("How many people to split the bill?: "))
     except:
-        print("Whoops! That's not a valid number. Please try again. ")
+        print("Whoops! That's is not a valid number. Please try again. ")
     else:
         break
 
